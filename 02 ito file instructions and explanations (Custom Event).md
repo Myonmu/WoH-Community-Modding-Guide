@@ -1,0 +1,327 @@
+
+# Event Template
+
+```
+[event]
+name=""
+location=""
+ending=""
+character=""
+author=""
+contact=""
+flavor=""
+options=""
+image=""
+big=""
+draw_ui=""
+x1=""
+y1=""
+x2=""
+y2=""
+wavy_art=""
+wavy_speed=""
+about=""
+a_required=""
+a_locked=""
+optiona=""
+testa=""
+successa=""
+winprizea=""
+winnumbera=""
+wineffecta=""
+load_sound=""
+extra_winprizea=""
+extra_winnumbera=""
+failurea=""
+failprizea=""
+failnumbera=""
+faileffecta=""
+extra_failprizea=""
+extra_failnumbera=""
+b_required=""
+b_locked=""
+optionb=""
+testb=""
+successb=""
+winprizeb=""
+winnumberb=""
+wineffectb=""
+extra_winprizeb=""
+extra_winnumberb=""
+failureb=""
+failprizeb=""
+failnumberb=""
+faileffectb=""
+extra_failprizeb=""
+extra_failnumberb=""
+c_required=""
+c_locked=""
+optionc=""
+testc=""
+successc=""
+winprizec=""
+winnumberc=""
+wineffectc=""
+extra_winprizec=""
+extra_winnumberc=""
+failurec=""
+failprizec=""
+failnumberc=""
+faileffectc=""
+extra_failprizec=""
+extra_failnumberc=""
+active="1.000000"
+
+```
+
+# WHAT THE HECK AM I LOOKING AT?
+
+The above is the complete list of all instructions a custom event .ito file can have (as of 0.9.92), and which World of Horror's executable will read for your custom event to take effect.
+
+ALL of them must be followed by `=""`, and all text, effects and number values must be typed inside the "quotation marks".
+
+Make sure you do not miss any of the quotation marks, otherwise the game will read the code incorrectly, leading to errors, bugs, or even game crashes.
+
+Below are the explanations of above instruction sets:
+
+### \[event]
+
+placed at the very beginning of the .ito file, it lets the game know that everything below it is an event's code.
+
+### name
+
+the in-game name of this event, it will show on the white bar in top left of the screen. Note that World of Horror events have their names in ALL CAPS.
+
+###  ending  #OPTIONAL 
+
+setting this to "1" will conclude a Custom Mystery after this event ends.
+
+### location
+
+where the event can occur. These can be locations that the player can visit (downtown, or hospital, or...), or the event can trigger when you have a certain Old God active during a playthrough. There are 14 locations available for use in custom events, and 2 more that are currently not implemented yet.
+
+- **school**: this event can appear at the School (the place with Schoolyard and Library)
+- **seaside**: this event can appear at the Seaside (the place with Hardware Store)
+- **mansion**: this event can appear at the Mansion
+- **downtown**: this event can appear at the Downtown (the place with everyone's favorite Dog Shop)
+- **hospital**: this event can appear at the Hospital (where Doctor's Office and Pharmacy are located)
+- **forest**: this event can appear at the Forest
+- **village**: this event can appear at the Village
+- **apartment**: this event can appear at the Apartment
+- **atorasu**: this event can appear if the chosen Old God is CHTAC-ATORASU (the spider)
+- **ithotu**: this event can appear if the chosen Old God is ITHOTU (the fiery boy)
+- **athyola**: this event can appear if the chosen Old God is ATH-YOLAZSTH (the big eye)
+- **gozu**: this event can appear if the chosen Old God is GOIZO (mirror thingy)
+- **ygothaeg**: this event can appear if the chosen Old God is YGOTHAEG (yander-eye axolotl)
+- **schoolhospital**: this event can appear in both School and Hospital. Note that this allows for possibility of the event to show up twice (in both School and Hospital) during a playthrough.
+- **seasideforest**: this event can appear in both Seaside and Forest, with same rules as above.
+- #NOT_IMPLEMENTED_YET **global**: this event can show while investigating any of the default locations (from School to Apartments) and for any Old God.
+- #NOT_IMPLEMENTED_YET **otherworld**: this event can show when the Player manages to traverse to the Otherworld.
+- #NOT_IMPLEMENTED_YET **herald**: this event can appear if the chosen Old God is HERALD (weird tuba boy)
+- #NOT_IMPLEMENTED_YET **kturufu**: this event can appear if the chosen Old God is KTU-RUFU (IA IA KTURUFU FHTAGN)
+- **linked**: links the event with a custom character that uses this event as their personal event (more on this in custom characters)
+
+### character #OPTIONAL 
+
+additional location requirement that is tied to player character; the event will NOT trigger until its exact match. Currently available values are first names of vanilla characters, lowercase; Miku is sole exception renderer as Rioter: kirie, aiko, haru, mizuki, kouji, mimi, rioter, moriko, yashiro, ayaka, toshiaki, juri
+
+*For more in-depth info on the characters themselves, along with their personal events in vanilla World of Horror (if you want to tie yours to established canon) can be found at World of Horror Wiki: https://woh.fandom.com/wiki/Category:Playable_Characters
+
+### author
+
+shows the autor's name in-game, preceded with 'by: ' string. If you're using someone else's art, it is a good place to write their name too, for example "Haspen, art by Chiavica"
+
+### contact
+
+your World of Horror's discord handle, in case panstasz (game's dev) would like to include your event into the game.
+
+### flavor
+
+the in-game text describing your event within the black text box. Remember that the box has its size, so try to not go too verbose in here. The game's executable auto-wraps the text horizontally, and adds new lines vertically when needed. type in # to force a new line, and ##(####) to make a blank line(ssss) between two parts of the text.
+
+### options
+
+draws the clickable 'choice' buttons for the Player to choose from. Valid values: "1", "2", "3". Make sure you correctly state the number of options. Otherwise, the game will not draw the necessary 'button' in-game, and the player won't be able to pick your choices.
+
+### image
+
+filepath to the image you want to show up with this event. The only valid graphic type is PNG. It can search within the wohgame's custom folder, or within its subfolders. For example, if you place the event's art in 'mycustomart' subfolder, you should write: "mycustomart/mycustomevent.png" as the filepath. **REMEMBER TO INCLUDE THE ART FOLDER AND ITS CONTENTS IN YOUR ZIP ARCHIVE!!** Including your art is 'technically' optional; if you do not provide any art, the game will supplant one of the few stock images it has (shaded and not very descriptive) stored within the executable.
+
+**There is an obscure bug: if you name your .png with n or r as first letter, the GMS2 code in World of Horror will interpret that as code for inserting new line, breaking the filepath. (thanks to jimmosio for helping point the issue!)
+
+### big #OPTIONAL 
+
+valid values are "0", "1" or "2".
+
+- 1 = This will set the in-game art as 'big' (506x220 pixels, whole event screen) instead of the default 'small' art (195x164 pixels, located within the square to the left-side from the text box). Note that 'big' art requires you to manually add the event title bar and other graphical parts to the art. If you have panstasz's example custom event pack, you can refer to 'template_fullart.png' file to see its layout.
+- 2 = Same as above, but in conjunction with draw_ui=0, will allow you to position the text box wherever you want.
+
+### draw_ui #OPTIONAL 
+
+draws the text box for your event if set to =0, using position markers below. The game will automatically anchor the text itself to the text box top-right corner with few pixels of free space.
+
+- **x1**: horizontal posiiton (in pixels) of the top-left corner of the text box.
+- **y1**: vertical position (in pixels) of the top-left corner of the text box.
+- **x2**: horizontal posiiton (in pixels) of the bottom-right corner of the text box.
+- **y2**: vertical position (in pixels) of the bottom-right corner of the text box.
+
+### wavy_art #OPTIONAL 
+
+valid values are "0" or "1". 
+
+- If it is set to 1, the game will make the art 'wave' horizontally. The speed value is located in wavy_speed instruction (look below). 
+- If you do not want your art to go 'wavy' you can set this to "0", or omit this line completely.
+
+### wavy_speed #OPTIONAL 
+
+valid values range from "0.01" to "2.0", the latter seems to be the highest value available (going above it will not make the art wave faster). At values lower than 0.1, the wavy effect is barely noticeable.
+
+### about
+
+a very short (~20 characters) descriptor that will show up when the player moves their mouse over the event's name in the MODS menu in World of Horror.
+
+### a_required #OPTIONAL 
+
+similarly: b_required, c_required
+
+in-game card that this option requires before the player can click it. Permitted values are every interactive in-game card you can collect: items, perks, allies, spells, curses/injuries/other statuses, written in ALL CAPS.
+
+### a_locked #OPTIONAL 
+
+similarly: b_locked, c_locked
+
+the message the game will show if you do not have the card specified in above field. You can write what you want, it uses same coding as 'option' text box. The usual vanilla string for locked options is "NEEDS \[CARD] PERK" (or CURSE or ALLY or...)
+
+### optiona 
+
+similarly: optionb, optionc
+
+name of the 'choice' that the Player has when the event triggers. Note that in-game choices are stylized in lowercaps, and spoken text is stylized with \<\<power brackets\>\>. The more options you've defined in "options" instructions, the smaller the button and thus less text can fit in. Options can have 2 lines of text max, but unlike "flavor", the game doesn't auto-wraps the text. To add the 2nd line, use the # symbol: optiona="this option has#2 lines of text" will show up as two lines.
+
+### testa
+
+similarly: testb, testc
+
+the game will 'test' the Player's character, based on whatever you define here, or it will automatically grant a 'success' if you use the 'story' value. Currently, only character Stats and FNDs can be 'tested'; there's no possibility (as of 0.9.14) of checking for Items, Allies or Curses (like in default World of Horror events).
+
+- **story**: this choice will be an automatic success. If you set the test as 'story', you do not need to fill out any of its 'failure' lines.
+- **strength**: this choice will test for Player character's STRENGTH (STR).
+- **dexterity**: this choice will test for Player character's DEXTERITY (DEX).
+- **perception**: this choice will test for Player character's PERCEPTION (PER).
+- **knowledge**: this choice will test for Player character's KNOWLEDGE (KNW).
+- **charisma**: this choice will test for Player character's CHARISMA (CHA).
+- **luck**: this choice will test for Player character's LUCK (LCK), a hidden statistic.
+- **funds1 / funds2**: this choice will check if Player's character has at least 1 or 2 FNDs. If they do, these FNDs will be substracted and the choice will end in a success; if not, the choice will end in failure.
+
+**it is possible to 'test' for reason and stamina, but these seem to result in automatic successes with just some random number rolling on top.
+
+### successa 
+
+similarly: successb, successc
+
+the in-game text describing the successful outcome of this choice. The text suffers the same limitations as 'flavor' text.
+
+### winprizea 
+
+Similarly: winprizeb, winprizec
+
+the 'prize' of the successful outcome. The value goes into winnumbera instruction (below).
+
+- **stamina**: will add X stamina to Player's character. 
+- **reason**: will add X reason to Player's chracter. 
+- **doom**: will add X doom to the Doom track on Player's character screen. 
+- **experience**: will add X experience to player's character. 
+- **funds**: will add X FNDs to Player's character. 
+- **item**: will add an ITEM to the Player character's inventory.
+- **itempool**: will add a random ITEM from the selected itempool to the Player character's inventory.
+- **curse**: will add a Curse status to Player's character. As of 0.9.14, the added Curse is randomly choosen by the game.
+- **spell**: will grant the Player's character a new Spell. As of 0.9.14, the added Spell is randomly choosen by the game, and not every spell in-game can be obtained this way.
+- **injury**: will add an Injury status to Player's character. As of 0.9.14, the added Injury is randomly choosen by the game.
+- **ally**: will add a new Ally to Player's character ally list. As of 0.9.14, the added Ally is randomly choosen by the game, and seems to exclude any of available Dogs (DOG, CAMP DOG, ATTACK DOG).
+- **trigger_event**: triggers another event. The path to the event must be written from the level of the .ito file itself, just like 'image'. Currently (0.9.84f) this can be used only as winrewarda= ; all others (failurea, and options 2 and 3 rewards) will fail to trigger other events.
+- **trigger_enemy**: triggers a combat encounter (school toilet -> toilet ghost is an example of this mechanic from base game). Same pathing logic as with 'trigger_event' and 'image'. Currently (0.9.84f) this can be used only as winrewarda= ; all others (failurea, and options 2 and 3 rewards) will fail to trigger the combat encounters.
+- **ending_trigger**: USED IN CUSTOM MYSTERIES. This will force the player to reach certain ending of the mystery.
+- **card_add**: USED IN CUSTOM MYSTERIES. This will add a temporary, custom status/curse/injury/ally card. Refer to '08 custom mysteries' file to see how to specify a custom card.
+
+### winnumbera
+
+Similarly: winnumberb, winnumberc
+
+the value of the thing given to player via 'winprizea' instruction.
+
+- **stamina/reason/doom/experience/funds**: valid values are numbers. If you want to substract a value, write a - sign before the number. There seem to be no cap involved, meaning you can, for example, kill the Player character by giving them -99 stamina, or level them up by giving 100 experience.
+- **item**: valid value is the item's name. ITEMS MUST BE TYPED IN ALL CAPS AND WITHOUT ANY TYPOS; failure to do so will result in a 'broken' item that cannot be clicked (and therefore equipped, used, discarded, sold, etc etc). Refer to '03 item list' file for the list of available items.
+- **itempool**: valid value is itempool's name. Refer to '04 item pools' file to see what items belong to what itempool.
+- **curse/spell/injury/ally**: randomly chosen by the game, leave it blank: winnumbera=""
+- **ending_trigger**: 0 for ending A, 1 for ending B, 2 for ending C.
+- **card_add**: CARD_AAA for the 1st custom mystery specific status card, CARD_BBB for 2nd custom mystery specific status card.
+
+### wineffecta #OPTIONAL 
+
+Similarly : wineffectb, wineffectc
+
+graphical effect that will be drawn by the game when the Player succeeds with testa.
+
+- bloodsplat: draws a splatter of blood in middle of the screen for about 2 seconds.
+- whiteflash: makes the screen go white before fading back to the event after about 2 seconds.
+- sound: plays the sound specified via 'load_sound' code. Bugged across versions 0.9.84f/0.9.9d.
+- glitch: displays numerous flickering 'glitches' on the screen for about 1 second.
+
+### load_sound #OPTIONAL 
+
+specifies the .wav file that will be played by 'sound' effect above. The path to the sound must be written from the level of the .ito file itself, just like 'image'. 
+
+### extra_winprizea #OPTIONAL 
+
+Similarly: extra_winprizea, extra_winprizeb
+
+second 'prize' for the succesful outcome of this choice.
+
+*GREATLY limited; at the moment, the only values can be stamina, reason, doom or experience.
+
+### extra_winnumbera 
+
+Similarly: extra_winnumberb, extra_winnumberc
+
+the value of the thingy given to player via 'extra_winprize' instructions.
+
+### failurea 
+
+Similarly: failureb, failurec
+
+the in-game text describing the failed outcome of this choice. The text suffers the same limitations as 'flavor' text.
+
+### failprizea 
+
+Similarly: failprizeb, failprizec
+
+the prize of the failed outcome. Exact same settings as winprize instructions.
+
+### failnumbera 
+
+Similarly: failnumberb, failnumberc
+
+the value of the failprizea. Exact same settings as winnumber instructions.
+
+### faileffecta #OPTIONAL 
+
+Similarly: faileffectb, faileffectc
+
+graphical effect that will be drawn by the game when the Player fails testa. Exact same settings as wineffect instructions.
+
+### extra_failprizea #OPTIONAL  
+
+Similarly: extra_failprizeb, extra_failprizec
+
+second 'prize' for failing testa option. Exact same settings as extra_winprize instructions.
+
+### extra_failnumbera #OPTIONAL  
+
+Similarly: extra_failnumberb, extra_failnumberc
+
+the value of extra_failprizea. Exact same settings as extra_winnumber instructions.
+
+### active
+
+leave it at default value of active="1.000000" so that the game reads the custom event as 'enabled'. It will let the custom event to show-up in game. Note: When you disable this event in-game, the game chances active value to 0 and puts it on top of the file, making the game read the active state first and skip the event. 
+*Currently (0.9.16) this option is always 'on'.

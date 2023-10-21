@@ -1,0 +1,218 @@
+# Character Template
+```
+[character]
+name=""
+author=""
+contact=""
+strength=""
+dexterity=""
+perception=""
+charisma=""
+knowledge=""
+luck=""
+sprite_icon=""
+sprite_back=""
+sprite_house=""
+portrait_a=""
+name_a=""
+portrait_b=""
+name_b=""
+sprite_chibi=""
+menu_tag="english name # japanese script"
+menu_desc="name#age / sex# #desc."
+perkpack_a=""
+perkpack_b=""
+
+[status]
+low_stamina=""
+low_reason=""
+ritual_mask=""
+karukosa_mask=""
+crestfallen_mask=""
+cursed_signs=""
+broken_nose=""
+insmasu_look=""
+slit_mouth=""
+hunger=""
+
+[starting_bonus]
+type_a=""
+name_a=""
+type_b=""
+name_b=""
+
+[linked_events]
+event_a=""
+location_a=""
+
+```
+
+# LOOK AT ALL THOSE STRINGS!
+
+Above is the entirety of coding that is used to create a custom character in World of Horror (as of version 0.9.92).
+
+ALL of them must be followed by ="", and all text, effects and number values must be typed inside the "quotation marks".
+
+Make sure you do not miss any of the quotation marks, otherwise the game will read the code incorrectly, leading to errors, bugs, or even game crashes.
+
+Below are the explanations of above instruction sets:
+
+## \[character]
+
+notifies the game that this is custom character code and processes it as such.
+
+### name
+
+name of your character, in base game these are written in ALL CAPS.
+
+### author
+
+your name here, as creator
+
+### contact
+
+your username (discord, twitter, steam...) so that people can contact you for any reason
+
+### strength
+
+your character's starting strength
+
+### dexterity
+
+your character's starting dexterity
+
+### perception
+
+your character's starting perception
+
+### charisma
+
+your character's starting charisma
+
+### knowledge
+
+your character's starting knowledge
+
+### luck
+
+your character's starting luck
+
+*My three FNDs on above stats: the usual sum of starting stats World of Horror characters have is 39, with 6 in LCK. Unlockables like Miku or Moriko buck that trend, of course. Consider this when setting your char's stats.*
+
+### sprite_icon
+
+the .png file for the tiny icon used by your character while on Character Selection screen. The size is 18x18px.
+
+### sprite_back
+
+the .png file for your character's 'back', when viewing the Mystery Board or on top of the Lighthouse.
+
+### sprite_house
+
+the .png file for your character's 'front', when they're standing in the middle your Apartment (where you take bath, check TV, choose a mystery, etc.). This will also be used during Character Selection; if the picture is too 'short' vertically (somewhere under 200px), the game will fill the empty space by copying top parts of the image.
+
+### portrait_a
+
+the .png file for your characters portrait, it goes in the middle of stat's window in bottom right. Also in wardrobe mirror.
+
+### name_a
+
+the name of the 'outfit' in portrait_a , it will be visible when selecting outfits in wardrobe, in base game these are written in ALL CAPS.
+
+### portrait_b
+
+same as portrait_a ; you can omit this and next line, but this will crash the game if the player attempts to view the 2nd outfit while playing
+
+### name_b
+
+the name of the 'outfit' in portrait_b
+
+**IMPORTANT**: The game supplies transparency to the character images (EXCEPT sprite_icon) by using the green at the edges. If your character's outline is touching left/top/right edge of the image, the white will be used as well, rendering your character transparent.
+sprite_chibi: the .png file for the deformed icon ('Chibi') showing when you launch an Investigation of a Location.
+
+**IMPORTANT**: Like in other sprites, here transparency is also applied, INCLUDING bottom edge of the sprite (make your chibi 'floating' few pixels above bottom edge)
+
+### menu_tag
+
+two lines for your character's job/occupation and the japanese script that follows. Both values can fit around ~25 individual signs before going off the border (less for japanese scripts, which use larger shapes). Character's job/occupation is usually set between two -'s, like -this-. the name and the japanese script are separated by # (line break).
+
+### menu_desc
+
+in base game, this is used to present character's Name (first line), Age / Sex (second line), and then description after a line break (fourth line onwards). Using additional line breaks, you can insert tidbits like '+ STRENGTH' like base game characters have. Description auto-moves text to new line if it goes over the limit, so you don't need # line breaks there.
+
+### perkpack_a
+
+name of the first Perk Pack to be used by your character. Note that all Perk Packs have names in square brackets, like \[HOUNDED ARTIST], not HOUNDED ARTIST. You can view all available Perk Packs and the Perks they have in file: 07 character perk packs
+perkpack_b: name of the second Perk Pack to be used by your character.
+
+## \[status]
+
+notifies the game that these are graphic layers for various statuses that can befall your custom character, use green for transparency just like in other character graphics
+
+### low_stamina
+
+the .png file containing art for when your character's STAMINA drops below 10.
+
+### low_reason
+
+the .png file containing art for when your character's REASON drops below 10.
+
+### ritual_mask
+
+the .png file containing art for when your character is wearing RITUAL MASK item.
+
+### karukosa_mask
+
+the .png file containing art for when your character is wearing 'KARUKOSA' MASK item.
+crestfallen_mask: the .png file containing art for when your character is wearing CRESTFALLEN MASK item.
+
+### cursed_signs
+
+the .png file containing art for when your character is afflicted with CURSED SIGNS curse.
+broken_nose: the .png file containing art for when your character is afflicted with BROKEN NOSE injury.
+
+### insmasu_look
+
+the .png file containing art for when your character is afflicted with INSMASU LOOK curse.
+
+### slit_mouth
+
+the .png file containing art for when your character is afflicted with SLIT MOUTH injury.
+
+### hunger
+
+the .png file containing art for when your character is afflicted with HUNGER curse.
+
+##  \[starting_bonus] #OPTIONAL 
+
+notifies the game that these are extras generated once you first reach Town Screen after starting a new playthrough using this custom character.
+
+### type_a/type_b #OPTIONAL 
+
+the category of the starting bonus. Currently permitted values are:
+- **item**: spawns an item and adds it to inventory; the player will be notified of this in MESSAGE LOG at bottom of game UI
+- **spell**: adds a spell card and adds it to spells tab; the player will be notified of this in MESSAGE LOG at bottom of game UI
+- **funds**: adds X funds to the FND stat
+- **injury**: adds an injury card to the injuries/curses tab; the player will be notified of this in MESSAGE LOG at bottom of game UI
+- **curse**: adds a curse card to the injuries/curses tab; the player will be notified of this in MESSAGE LOG at bottom of game UI
+- **status**: adds a non-injury, non-curse card to perks/allies tab, including character perks, EVEN special ones like Yashiro's OMINOUS LETTER or Mimi's MIMI'S OBSESSION; the player will be notified of this in MESSAGE LOG at bottom of game UI
+- **doom**: adds X doom to the DOOM counter on top bar
+- **bullets**: adds X bullets to the Bullets counter on top bar
+- **cigarettes**: adds X cigarettes to the Cigarettes counter on top bar
+
+### name_a/name_b #OPTIONAL 
+
+the NAME or VALUE of above bonus.
+
+- for item, spell, injury, curse and status, these must be correct names written in ALL CAPS
+- for funds, doom, bullets and cigarettes, these must be numerical values; negative values are permitted (although granting negative funds will cause the game to bump FND to 0, because that's how game handles them)
+
+## \[linked_events] #OPTIONAL 
+
+### event_a/b/c/d/e #OPTIONAL 
+
+filepath to an event linked to this character (maximum 5). The events MUST be placed in CUSTOM folder, not CHARACTER folder, and the path itself can contain subfolders (so the game doesn't trigger them for any character), excluding root custom folder, for example: "my_char_events\char_event1.ito"
+
+### location_a/b/c/d/e #OPTIONAL 
+
+which location icon will show up when this event is triggered (refer to event Locations for location strings)

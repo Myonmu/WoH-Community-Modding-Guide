@@ -1,0 +1,167 @@
+These lists have their items listed alphabetically and using current in-game items.
+
+All items on the list have been confirmed to drop via respective itempool settings via rigorous custom event testing.
+
+Shop lists are generated when a player starts a playthrough; therefore people without proper achievements won't get certain items (for example, 'hideout' won't give the player an Army Knife if they don't have that item unlocked)
+
+# book
+
+- DUSTY GRIMOIRE 
+- 'FATAL FLORA' 
+- LIBRARY BOOK
+- LIBRARY NOTES
+- OCCULT DIARY
+
+# magicitem
+
+- CORPSE DUST
+- CURSED DOLL
+- ELDRITCH AMULET
+- GRUESOME TOTEM
+- HOLY CANDLE
+- HUMAN SKULL
+- MUMMIFIED HEART
+- PRAYER BEADS
+- RITUAL DAGGER
+- RITUAL MASK
+- RITUAL ROBE
+- SMALL CANDLE
+- TOME OF ROT
+
+# mask
+
+- DEMON MASK
+- 'KARUKOSA' MASK
+- KENDO HELMET
+- RITUAL MASK
+- STALKER'S MASK
+- FUNNY MASK
+
+# poor
+
+- BROKEN BOTTLE
+- EMPTY BOTTLE
+- FLASHLIGHT
+- STEAK KNIFE
+
+# ring
+
+- NICE RING
+- PATINA RING
+- ROCK RING
+
+# dogshop
+## always available
+
+- BACKPACK
+- CAMERA
+- CIGARETTES
+- COMPASS
+- ENERGY DRINK
+- FLASHLIGHT
+- SALT
+- SEWING KIT
+- STEAK KNIFE
+
+## achievements required
+
+- DOG TREATS
+- FOREIGN CIGARETTES
+- MAP
+
+# villagedogshop:
+## always available
+
+- BOTTLE \[MILK]
+- HAPPI COAT
+- HOLY CANDLE
+- LUCKY EARRINGS
+- PRAYER BEADS
+- TAIYAKI
+
+## achievements required
+
+- MAP
+- PANCAKES
+
+# vendingshop:
+
+- BOTTLE \[WATER]
+- CIGARETTES
+- ENERGY DRINK
+- SOFT DRINK
+
+# hardwareshop:
+## always available
+
+- CAN OF ACID
+- CARPENTER HAMMER
+- CROWBAR
+- FLASHLIGHT
+- SHOVEL
+
+## achievements required
+
+- HEAVY DUTY FLASHLIGHT
+- MONKEY WRENCH
+- POCKET KNIFE
+- FUEL
+- FLARE GUN
+
+# pharmacyshop:
+## always available
+
+- BANDAGE
+- EMPTY BOTTLE
+- PAINKILLER
+- PRESCRIPTION PILLS
+- SCALPEL
+- SEWING KIT
+
+## achievements required
+
+- BONE SAW
+- EXPERIMENTAL DRUG
+- PAIN MEDICATION
+- ARM SLING
+
+# magicshop:
+## always available
+
+- CURSED DOLL
+- HOLY CANDLE
+- LUMP OF FLESH
+- MUMMIFIED HEART
+- RITUAL DAGGER
+- RITUAL ROBE
+- RITUAL MASK
+
+## achievements required
+
+- CURSED CARTRIDGE
+- GLASS EYE
+- GRUESOME TOTEM
+- SMALL CANDLE
+- FUNNY MASK
+
+# hideout:
+## always available
+
+- BANDAGE
+- CAN OF ACID
+- CIGARETTES
+- CHAMPAGNE
+- MEAT CLEAVER
+- WINE BOTTLE
+
+## achievements required
+
+- ARMY KNIFE
+- CURSED CARTRIDGE
+- EXTRA AMMO
+- FOREIGN CIGARETTES
+- HUNTING RIFLE
+
+## WORRYING WRITE-UP mystery required
+
+- HOSPITAL PASS 
