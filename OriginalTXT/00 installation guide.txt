@@ -1,0 +1,37 @@
+***INSTALLATION GUIDE (WINDOWS OS / STEAM):***
+
+Hello and welcome, here's a list of where put which custom content (as of version 0.9.92)
+
+If you do not have either of the folders specified below, just make them.
+
+**CUSTOM EVENTS, CUSTOM ENEMIES:**
+
+`C:\Users\yourusernamehere\AppData\Local\wohgame\custom `
+
+Put all events and enemies in there. Various .ito files should go there, art usually gets put into subfolders by the modders.
+
+**CUSTOM CHARACTERS:**
+
+`C:\Users\yourusernamehere\AppData\Local\wohgame\character `
+(if this folder does not exist, create it manually). Make sure it is **NOT** `wohgame\extra_content\character` as the game does not read files from there.
+
+Put all characters in there. Like above, .ito files go directly there, art into subfolders.
+
+There's a hard limit of 28 custom characters that will be loaded by the game (they're loaded alphabetically per filename).
+
+**CUSTOM MYSTERIES:**
+
+`C:\Program Files (x86)\Steam\steamapps\common\WOH\mystery` 
+(or elsewhere, depends where you installed Steam itself. If this folder does not exist, create it manually.) Make sure it is **NOT** `wohgame\extra_content\mystery` as the game does not read files from there.
+
+Put the mysteries in there. Same rules apply as above.
+
+The game will the load 8 random mysteries and apply them to Mystery Board/Custom Mystery List during playthrough for you to choose. To get a new batch, simply 'q'uit the playthrough and start a new one.
+
+**CUSTOM TRANSLATIONS:**
+
+**Applying a translation will break all your modded content due to how modding uses language files for coding, instead of game code itself. Only use translations to play with vanilla content.**
+
+`C:\Program Files (x86)\Steam\steamapps\common\WOH\language` (or elsewhere, depends where you installed Steam itself)
+
+Put the .jn files in there, and agree to overwrite. **Consider putting the original English translation somewhere else as backup in case something goes wrong.**

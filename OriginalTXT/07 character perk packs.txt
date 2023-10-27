@@ -1,0 +1,72 @@
+These are valid perk pack settings for your character, each can have 2.
+
+Each [PERK PACK] provides 2 character Perks.
+
+Most of these perks are the same as characters from base game; first 6 packs (Skilled Butcher to Pushing Yourself) contain perks that are unused by base game characters.
+
+[SKILLED BUTCHER]
+    FRESH MEAT - gain a mysterious meat for completing a mystery
+    SHARPENING STONE - [SHARP]-type weapons get an extra 1 damage
+[HOUNDED ARTIST]
+    MORBID INSPIRATION - Gain EXP when losing REASON
+    HAUNTING DREAMS - regain extra REASON for completing a mystery
+[OBSESSIVE SHOPPER]
+    QUICK SHOPPER - buying an item lowers doom by 2
+    BIG SPENDER - a chance for refunding 1 FND after buying an item
+[TAROT READER]
+    PREMONITION - event options display which stat will be tested against when selected
+    STARS ARE RIGHT - automatically pass all LUCK skill checks
+[INNER STRENGTH]
+    PREDESTINED - +2 MAX REASON#+2 REASON
+    UNRELENTING - +2 MAX STAMINA#+2 STAMINA
+[PUSHING YOURSELF]
+    SURVIVAL INSTINCT - pass all event skill checks when your reason is lower than 3
+    WINGING IT - all event skill checks have a negative modifier that makes them harder. Passing an event skill check grants extra EXPERIENCE
+[MAGIC CASTER]
+    GHOST CONNECTION - completing a mystery grants a random SPELL
+    ARCANE GRASP - +2 additional SPELL slots available
+[LONE WOLF]
+    ON YOUR OWN - +1 to all stats if you have no allies with you
+    HARD-KNOCK - +1 damage while under the NICOTINE RUSH effect
+[ESCAPE ARTIST]
+    RUNNING SHOES - smaller DOOM penalty from running from combat
+    STEALTH - gain 10 EXP for escaping from an enemy encounter
+[CLOSE QUARTERS]
+    DEFT HANDLING - FIREARM melee attacks are 20% faster
+    CQC TRAINING - using firearms as melee weapons deals more damage
+[MAFIA MEMBER]
+    YAKUZA CARD - one additional slot becomes available in all shops#remove the [ILLICIT] tag from all items
+    IREZUMI - items in the shops are cheaper by 1#[minimum 1]
+[MILITARY BACKGROUND]
+    AMMO STASH - Gain 1-2 BULLETS at the end of each mystery
+    DISCIPLINE - regain 1 STAMINA for all passed event skill checks
+[SPORTS STAR]
+    FAST SWIMMER - faster offensive actions
+    DADDY'S GIRL - Regain 2 STAMINA at the end of each mystery
+[WITCH'S CHILD]
+    SECOND SIGHT - additional damage against GHOST and ELDRITCH enemies
+    OCCULT SIGNS - small EXP bonus for casting spells
+[ME TIME]
+    SELF-THERAPY - forgetting spells regains extra REASON
+    HOT BATH - improved resting at home
+[ANXIOUS ATHLETE]
+    CORE STRENGTH - all combat moves deal an extra point of damage
+    FAST HANDS - allows switching equipment during combat encounters
+[AMATEUR DETECTIVE]
+    DEDUCTION - extra EXP bonus for completing a mystery
+    REPORTER'S BAG - additional inventory slot
+[PETTY THIEF]
+    PICKPOCKET - higher chance of finding items after combat
+    LOOTING - gain 1 FUNDS for each defeated enemy
+[SERIAL KILLER]
+    DOOMED ALREADY - regain 1 REASON for all failed event skill checks
+    ANATOMY CLASS - extra damage against HUMAN enemies
+[HOSPITAL STAFF]
+    FAST LEARNER - getting damaged in combat grants a small experience bonus
+    FIRST AID - defeating an enemy regains 2 REASON
+[HORROR WRITER]
+    SIGNED CONTRACT - extra FUNDS for completing a mystery
+    MY WEIRD COLLECTION - gain one random item with a [OCCULT] tag at the end of each mystery
+[SMOOTH TALKER]
+    IMPROVISE - throwing items during combat encounters is more effective
+    FAME - faster combat actions for each ally you have
