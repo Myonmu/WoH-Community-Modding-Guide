@@ -1,0 +1,111 @@
+Hi and hello! I'm Haspen!
+
+This set of instructional files exists to help you create your custom events. It will provide basic guidelines to creation of .ito files, as well as their standard formatting.
+
+I'm purely Windows user, so for people using Mac (or other OS, or in the future, Switch), these instructions might not be that much help.
+
+This modding guide was made for World of Horror version: 0.9.92
+
+ALMANACH FILE LISTING:
+
+00 installation guide
+Where to put the various .ito files
+
+01 introduction and the ito file
+This very file, contains all the basic information about modding in World of Horror
+
+02 ito file instructions and explanations
+First half is basically an empty custom event for your use; the second half comes with all available code instructions explained
+
+03 item shortlist
+An alphabetically arranged list of all items in game
+
+04 itempools list
+Itempools and what they contain; itempools are called for sometimes as rewards for certain events
+
+05 enemy file instructions and explanations
+Exactly like 02, just for custom enemies
+
+06 character file instructions and explanations
+How to make your first puppet-chan, I mean, custom character
+
+07 character perk packs
+Perk 'packs' that can be assigned for your custom character
+
+08 custom mysteries
+How to, what do, and the restrictions within
+
+09 language files
+Short description of .jn files and general info on translating the game texts.
+
+WHAT IS AN '.ITO' FILE?
+
+It is a faux file type created by panstasz (game's dev) for the use by World of Horror game executable.
+
+To create an .ito file, simply grab an empty text file (.txt extension) and name it "mycustomevent.ito".
+
+Note that the .ito is in the file's NAME, it is not an actual extension. If you would set visibility of file extensions in Windows, the above would show as 'mycustomevent.ito.txt'
+
+HOW TO EDIT .ITO FILES?
+
+Notepad.
+
+Honestly, a text editor as simple as Windows' Notepad is sufficient for you to create custom events.
+
+I personally use Notepad++, because it allows for multiple files to be opened at once, it has a line and word counter, and many other little things that help.
+
+Of course, if you have any other text editor that you like, feel free to use it. It should have no problem opening .ito files (look above to see why).
+
+WHERE DO I FIND OTHERS' CUSTOM EVENTS?
+
+As of 0.9.12, the only way to share Custom Events is to share them with others 'manually'.
+
+World of Horror Discord has the #mods-repository channel, where people post their creations for others to download.
+
+It is customary to 'zip' your custom events into archives (even WinRar will suffice) to keep all the files within one place.
+
+Steam Workshop is rumored to be added sometime in the future.
+
+Other, less popular venues are the official World of Horror Reddit: https://www.reddit.com/r/WorldofHorror/
+
+CAN I SEE MY CUSTOM EVENTS IN GAME WITHOUT STARTING A NEW PLAYTHROUGH?
+
+Yes, you can!
+
+While in World of Horror's main menu, go to MODS section, then search for your event's name on the list. 
+
+Right-click it to start the in-game custom event viewer. There, you can select the starting text, or check all the options available. 
+
+The game will render text and the outcomes (Stamina reduction, Doom increase, or whatever it was that you typed-in) as it will show during a normal playthrough.
+
+It will also show all graphical effects ('wavy' art, bloodsplats/whiteflashes) as well.
+
+It will NOT show the curse, ally, item or spell that you get, only a notification of obtaining one (+CURSE, +ALLY and so on).
+
+HOW TO MAKE A GOOD CUSTOM EVENT?
+
+Oh boy, this is an extremely subjective question.
+
+Try to not go overboard with your rewards, for example avoid giving powerful items for free/easily (Katana, Fire Axe, etc). If you really want to give the Player a strong, useful item, consider penalizing them with a hit to Stamina or Reason (for example, -2 Reason for giving the Player a Fire Axe).
+
+Stamina, Reason and Doom are resources that can make or break a game. Avoid giving huge penalties; on the flip side, try to be moderate with rewards.
+
+If you want to use Doom with combination of Stamina and Reason, a good ratio is 1:2 Stamina/Reason:Doom. For example, you lower Player character's Stamina by 2 to lower Doom by 4. A differently weighted event is 'Wired Preacher'; it lowers Player's Reason by 3 points, but also substracts 5 Doom from the Doom track.
+
+Similarily, Experience seems to be weighted at about 5 Experience per 2 Doom (or 1 Stamina/Reason). Many events, including some from base game, give the Player 10 Experience at the cost of 2 Reason or 3 to 4 Doom.
+
+Try to avoid specifying names, places and characters; this is especially important for Old God custom events, which are tied to the Old God rather than a specific location.
+
+Before making your own events, consider checking custom events made by others, or at least those that panstasz (World of Horror's developer) included in the example pack.
+
+HOW TO MAKE A GOOD CUSTOM ENEMY?
+
+Even more subjective than above.
+
+You might want to keep enemy's damage output low, around 1 or 2 points. Nothing pisses off an average player than finding themselves dead to a random mook who happens to deal 5 Stamina damage every turn and can't be run away from.
+
+Health of enemies in base game usually ranges anywhere from 10 to 20+, with several bosses being the only ones to exceed 30.
+
+EXP gained from combat also seems to hover around 5-15.
+
+I can't help much but preach moderation when it comes to item rewards. Consider that, unlike events, enemies tend to re-appear more often in one run. Giving multiples of rare items from an enemy might the game too easy for the player, and we don't want that, now do we?
