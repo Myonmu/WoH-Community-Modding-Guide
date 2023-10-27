@@ -26,7 +26,7 @@ The list can be found here: https://itch.io/t/488011/currently-supported-unicode
 
 The font iself supports many accented characters, and panstasz periodically updates the in-game sheet with new letters. For the most part, common Scandinavian and Romance umlauts/accented letters are supported.
 
-.JN FILE LISTING AS OF 0.9.9d: 
+.JN FILE LISTING AS OF 1.0g: 
 
 woh_addy.jn: Home, City interface, Locations, student gossip lines (Schoolyard), Endgame (Lighthouse).
 woh_chal.jn: Challenges' menu, Endless mode texts, Ending screens, Mystery and game summaries, Cook Book item and Threat Level texts and few misc in-mystery Investigation strings.
@@ -35,18 +35,18 @@ woh_comb.jn: Combat inferface, combat action logs, special combat actions, comba
 woh_dec.jn: Stuff added in version 0.9.92 of World of Horror.
 woh_enm.jn: Enemy names, types, attack strings, intros and assess dialogues.
 woh_event.jn: In-game events and event interface/buttons.
-woh_go.jn: A block of gibberish.
+woh_go.jn: Strings and texts pertaining to Tragic Tale of Thaumaturgy Teacher mystery.
 woh_halo.jn: Preparation for Investigation items (personalized for each playable character), Options menu strings, miscellaneous YOU tab strings, Level Up strings and few misc in-mystery Investigation strings, Meat Cleaver's damage bonus string.
 woh_home.jn: Home interface, Mailbox strings, Monument location strings, Mystery board, Mode selection screen, Old God selection screen, Old God effects, Investigation Chibi Screen labels, Scissors Tutorial Mode Intro.
-woh_ichi.jn: A block of gibberish. In the middle, Eimi and Uchida Ally strings and T'Cithura and Kaibara Villagers dual-enemy strings.
+woh_ichi.jn: Several statuses and curses added in version 1.0, Yumiko character strings, Eimi and Uchida allies, Freakish Flood bosses, Medusa Metamorphosis boss, Noisy Nails bosses, text and mechanic strings for Zhectast and Eh-Żhal old gods.
 woh_mod.jn: Reward strings for custom events, kept separately from others for some reason
-woh_mys.jn: Mysteries (intros, investigation blocks, ending panels etc, except Freakish Fable) and Endless mode intro.
-woh_ni.jn: A larger block of numbers. Latter half contains Freakish Fable mystery.
+woh_mys.jn: Mysteries (intros, investigation blocks, ending panels etc, except Freakish Fable, Medusa Metamorphosis, Noisy Nails, Thaumaturgy Teacher and Residential Recluse) and Endless mode intro.
+woh_ni.jn: Mysteries (intros, investigation blocks, ending panels etc) not included in previous file; also Achievements added in version 1.0, and assorted strings pertaining to new mysteries and randomization options.
 woh_palette.jn: In-game color palette names.
 woh_perk.jn: Perks, Treatments, Curses/Injuries, Town Statuses.
-woh_san.jn: Juri Okusawa's character info and some 'teacher' strings related to ??. 
+woh_san.jn: Juri Okusawa's character info, extra combat actions for Shiokawa School (Thaumaturgy Teacher mystery), Order Allies to Attack action strings, misc strings, and Seventh Curse log entries for dying allies
 woh_small.jn: Weapon labels and stats, Items, Ally chat dialogues, Allies.
 woh_spells.jn: Spell labels, Spells and few extra Allies.
 woh_ui.jn: Game interface, Main Menu, Extras Menu, New Game Menu, Difficulty Levels, Extra Options (Character Selection button), Options Menu and labels, Mystery Completion Summary strings, In-game action log (bottom panel), Card Pack Selection Screen, Game Intro texts, Achievements Menu and misc strings.
-woh_ver.jn: Current (0.9.92) stable game version (not hotfixes) in-game pop-up above the main menu
-woh_yon.jn: Another block of numbers.
+woh_ver.jn: Current (1.0) stable game version (not hotfixes) in-game pop-up above the main menu
+woh_yon.jn: Strings related to Residential Recluse mystery (unique events, boss descriptions, items, etc)

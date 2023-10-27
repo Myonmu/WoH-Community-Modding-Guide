@@ -4,47 +4,62 @@ This set of instructional files exists to help you create your custom events. It
 
 I'm purely Windows user, so for people using Mac (or other OS, or in the future, Switch), these instructions might not be that much help.
 
-This modding guide was made for World of Horror version: 0.9.92
+This modding guide was made for World of Horror version: 1.0g
 
 ALMANACH FILE LISTING:
 
 00 installation guide
-Where to put the various .ito files
+Where to unpack events, enemies, characters and mysteries for Windows OS + Steam versions of World of Horror.
 
 01 introduction and the ito file
-This very file, contains all the basic information about modding in World of Horror
+An introduction to modding, explaining all important things about custom events.
 
 02 ito file instructions and explanations
-First half is basically an empty custom event for your use; the second half comes with all available code instructions explained
+The list of all instructions within a custom event file, with explanations and permitted values.
 
 03 item shortlist
-An alphabetically arranged list of all items in game
+An alphabetical list of all items that you can give out to player character, with little info about each item.
 
-04 itempools list
-Itempools and what they contain; itempools are called for sometimes as rewards for certain events
+03a ally shortlist
+An alphabetical list of all allies that you can assign to player character, with little info about each ally.
+
+03b curse shortlist
+An alphabetical list of all curses that you can assign to player character, with little info about each curse.
+
+03c injury shortlist
+An alphabetical list of all injuries that you can assign to player character, with little info about each injury.
+
+03d spell shortlist
+An alphabetical list of all spells that you can assign to player character, with little info about each spell.
+
+04 itempool list
+A list of all itempools and what items are located within those.
 
 05 enemy file instructions and explanations
-Exactly like 02, just for custom enemies
+The list of all instructions within a custom enemy file, with explanations and permitted values.
 
 06 character file instructions and explanations
-How to make your first puppet-chan, I mean, custom character
+The list of all instructions within a custom character file, with explanations and permitted values.
 
 07 character perk packs
-Perk 'packs' that can be assigned for your custom character
+List of currently available custom character perk packs, so that you don't have to look around for them in custom-character channel all the time.
 
 08 custom mysteries
-How to, what do, and the restrictions within
+The list of all instructions within a custom mystery file, with explanations and permitted values.
 
 09 language files
 Short description of .jn files and general info on translating the game texts.
+
+10 translating mods to another language supported by the game
+General information on how-to, including quirks and bugs related to current version.
 
 WHAT IS AN '.ITO' FILE?
 
 It is a faux file type created by panstasz (game's dev) for the use by World of Horror game executable.
 
-To create an .ito file, simply grab an empty text file (.txt extension) and name it "mycustomevent.ito".
+To create an .ito file, simply open a new txt file in notepad, then, when done, save as -> all files -> nameofyourevent.ito
 
-Note that the .ito is in the file's NAME, it is not an actual extension. If you would set visibility of file extensions in Windows, the above would show as 'mycustomevent.ito.txt'
+For even faster way, grab someone's mod (even the example ones will do), and replace the stuff inside with your code, flavor et cetera. No need to fill everything from scratch this way!
 
 HOW TO EDIT .ITO FILES?
 

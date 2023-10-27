@@ -1,0 +1,60 @@
+NOTE: This list is an alphabetical list of all Spells that can be found in World of Horror (version 1.0).
+
+Information includes in-game spell card name as well as short description.
+
+Spells not included in default spell roster are noted as such. Spells unlocked by achievement are noted as such.
+
+Rituals (which become active and their effects subsequently shows in Ritual info window below Inventory) are noted as such. Single-use spells noted as such.
+
+---
+
+ABOLISH: Lowers Eldritch enemy's DMG by 1 to minimum of 1, -3 Stamina.
+ABSORB: Deals 3 Damage to an enemy, +2 Stamina, -4 Reason.
+ANCESTRAL STRENGTH: Ritual. +1 DMG dealt, -4 Reason.
+ASHEN CONTRACT: Immediatelly kills non-Eldritch (Human, Monster, Undead, Ghost, Vampire, Plant, Circle) enemy, +7 Doom.
+AWAKEN: +1 to 2 random stats (can double down on a stat), +10 Doom. Not included in default spell roster, fully functional.
+
+BINDING AGONY: Lowers enemy DMG by 1 to minimum of 0, -3 Reason. Not included in default spell roster, fully functional.
+BOOK OF GORE: +3 Stamina, +3 Reason, +1 random Injury.
+BRAIN WORMS: Single-use. -2 Stamina, -2 Doom, forgetting this spells costs 2 Reason. Unlocked by an achievement.
+
+CAUTERIZE: Single-use. +2 Stamina.
+
+ENTHRALLMENT: Single-use. +1 random Ally, -4 Reason.
+EXPEL EVIL: Single-use. -2 Stamina, -6 Doom.
+
+FLESH REGROWTH: -2 Maximum Stamina, +3 Stamina.
+
+GHOSTLY SPEAR: Deals 6 Damage to an enemy, -1 Maximum Stamina. Unlocked by an achievement.
+GROW TEETH: Grants 'BITE' action until end of Mystery, -2 Stamina.
+
+HOLY GLYPHS: Single-use. -1 Doom per each item in Inventory, -2 Reason. Unlocked by an achievement.
+
+INVISIBILITY: No Doom cost for escaping Combat until end of the Mystery, -4 Reason.
+ITHOTU FLAME: Deals 8 Damage to an enemy, +2 Doom, -1 Stamina, -1 Reason.
+
+K'NPHA RITUAL: Ritual. +1 to random Stat when an Ally dies from 'Kill' action (Paranoia curse), -2 Reason.
+
+MEMORY EXTRACT: -10 Experience, +2 Reason.
+MEND: -2 Stamina, +1 Reason (yes, you read that correctly). Not included in default spell roster, fully functional.
+MIDASU TOUCH: -2 Stamina, +1 FND.
+MIND DRAIN: Deals 4 Damage to an enemy, +2 Reason, -1 Maximum Reason.
+MULTIPLY WOUND: Deals Damage depending on how much Stamina the Player Character has left compared to maximum.
+
+PROTECTIVE CARVINGS: Ritual. -4 Stamina, reduces all DMG received by 1. Unlocked by an achievement.
+
+REGENERATION: +4 Stamina, -2 Reason.
+
+SEAL OF BRAM'EL: Single-use. Permament +1 Knowledge bonus.
+SEAL OF SAVVESH: Single-use. Permament +1 Strength bonus.
+SHADOW SHROUD: Player Character ignores Threat Levels of Locations until end of the Mystery, -3 Reason.
+SKIN REMOVAL: Deals 6 Damage to an enemy, -3 Reason.
+
+THIRD EYE: +1 to Perception and Knowledge until end of the Mystery, -3 Reason.
+THREAD OF FATE: Single-use. Immediately kills Human enemy, -4 Reason.
+
+UNEARTHLY SUTURE: Grants 1 Injury removal, +4 DOOM.
+
+VOID: Single-use. Immediately ends current Event and begins a random Otherworld Event in its place, -4 Reason.
+
+WITNESS CURSE: Ritual. Stamina Damage received in Combat will be turned into Doom increase instead, -2 Reason.

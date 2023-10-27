@@ -1,0 +1,43 @@
+NOTE: This list is an alphabetical list of all Allies that can be found in World of Horror (version 1.0).
+
+Information includes in-game ally card name as well as short description.
+
+Allies normally obtained in non-standard ways are noted as such. Allies normally requiring an Achievement are noted as such.
+
+---
+
+AIKO'S FRIEND: +1 Inventory slot. Exclusive to Aiko Takahashi via an event.
+ASATO: +2 Spells if you let her go.
+ATTACK DOG: +1 DMG dealt. Normally available only via 'Trapped Dog' Event. Unlocked by achievement.
+
+CAMP DOG: +1 Inventory slot. Normally available only via 'Trapped Dog' Event. Unlocked by achievement.
+
+DOG: Changes item drops for certain enemies (same effect as Pickpocket perk). Normally available only via 'Trapped Dog' Event.
+
+EIMI: +1 Reason at the end of mystery. Perilous Parable of a Peculiar Painting ally.
+
+FUJIKO: +1 DMG with Kick action.
+
+HERMIT: -5 Reason, -10 Doom if you let them go.
+HIROYUKI MIZUTANI: +1 Stamina at the end of mystery.
+
+IKUMI: +1 to Skill Checks in Otherworld locations.
+IWA: +2 Strength. He's the best.
+
+KANA: -1 DMG received in combat. Non-eyepatch version. Eerie Episode of Evolving Eels ally.
+KAZUMI: Lowers cost for TREATMENT and SURGERY at Doctor's Office.
+KYOKO: +1 DMG dealt, +5 Doom
+
+MARIA: +1 Cigarette (counter) after defeating an Enemy.
+MASAKO: Faster (0.9x) combat speed. Small chance to reduce Stamina by 1 during Investigations. Unused ally not encountered normally during playthrough.
+MASAFUMI: +1 DMG versus Ghost enemies.
+
+REIKO: +1 FND at end of mystery.
+RYOKO: +1 DMG with Weapons.
+RYUICHI: pay 2 FND, lower Doom by 0 to 3. Unlocked by achievement.
+
+STUDENT A/B/C/D/E/F: Varies, depending on what effect the game assigns to that specific Student.
+
+UCHIDA: +7 EXP when using Assess Situation action during combat.
+
+YOICHI: Doubles FND amount if you let him go.
