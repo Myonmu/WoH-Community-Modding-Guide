@@ -1,4 +1,4 @@
-NOTE: This list is an alphabetical list of all Items that can be found in World of Horror (version 0.9.92). It does NOT include any values, places where to find etc etc. 
+NOTE: This list is an alphabetical list of all Items that can be found in World of Horror (version 1.0). It does NOT include any values, places where to find etc etc. 
 
 If you want more detailed descriptions of items, I refer you to the Item List on Steam (might be incomplete and/or incorrect), made by PaperRabbit: https://steamcommunity.com/sharedfiles/filedetails/?id=2009870553
 
@@ -6,7 +6,7 @@ Items that are extremely hard to get (OP weapons) or are items used/provided by 
 
 Items preceded with #### are not obtainable via normal means (shops, enemy drops, mystery rewards), but can be 'spawned' via custom event/enemy modding.
 
-A:
+---
 
 AIKO'S PLUSH TOY: Equipable (slot C), personal Preparation Item of Aiko Takahashi
 ANATOMY BOOK: Consumable (allows repeated use), personal Preparation Item of Mimi
@@ -16,11 +16,9 @@ ARM SLING: Equipable (slot B), unlocked via achievement
 ARMY KNIFE: Weapon (slot A), unlocked via achievement
 AYAKA'S CHALK: Equipable (slot C), personal Preparation Item of Ayaka Kuroi
 
-B:
-
 BACKPACK: Equipable (slot B)
 BANDAGE: Used to treat Minor Injuries
-#### BASEBALL: Consumable, personal Preparation Item of ?? (version 0.9.9b)
+BASEBALL: Consumable, personal Preparation Item of Yumiko Ichimura
 BASEBALL BAT: Weapon (slot A)
 BLACK HAIR: Used alongside SEWING KIT to create SEWING KIT (HAIR)
 BLESSED SHELL: Consumable, personal Preparation Item of Moriko Ishii
@@ -39,12 +37,10 @@ BROKEN BOTTLE: Weapon (slot A), improvised weapon
 BRONZE CRUCIFIX: Equipable (slot B), consumable, using it while playing as anyone else than Yashiro crashes the game
 BURNT NOTES: Quest item from Eerie Episode of Evolving Eels
 
-C:
-
 CAMERA: Equipable (slot B)
 CAN OF ACID: Consumable
 CARPENTER HAMMER: Weapon (slot A)
-#### CASSETTE PLAYER: Does not show anywhere in the game, currently (0.9.16) does nothing beyond looking cool
+#### CASSETTE PLAYER: Does not show anywhere in the game, currently (1.01) is bugged with a graphic that cannot be closed
 CHAINSAW: Weapon (slot A), OP weapon, made by combining FUEL with CHAINSAW [NO FUEL]
 CHAINSAW [NO FUEL]: Unusable until FUEL is bought and used. Obtainable during Perilous Parable of the Peculiar Painting
 CHAMPAGNE: Consumable
@@ -62,15 +58,11 @@ CURSED CARTRIDGE: Equipable (slot C), unlocked via achievement
 CURSED DOLL: Consumable, unlimited uses
 CURSED SCISSORS: Weapon (slot A), OP weapon, reward from Spine-Chilling Story of School Scissors ending B
 
-D:
-
 DEMON MASK: Equipable (slot B)
 DIY FLAMETHROWER: Weapon (slot A), OP weapon, reward from Bizarre Bruit of Blood-Curdling Botanist ending A
 DOG TREATS: Unlocked via achievement
 DUST OF SEEING: Consumable, Quest item for Curious Case of a Contagious Coma
 DUSTY GRIMOIRE: Consumable, unlimited uses
-
-E:
 
 ELDRITCH AMULET: Equipable (slot B), unlocked via achievement
 EMPTY BOTTLE
@@ -78,14 +70,13 @@ ENERGY DRINK: Consumable
 EXPERIMENTAL DRUG: Consumable, unlocked via achievement
 EXTRA AMMO: Consumable, unlocked via achievement
 
-F:
-
 'FATAL FLORA': Consumable
 #### FAVORITE SNACKS: Consumable, personal Preparation Item of ?? (version 0.9.9b)
 FILM ROLL: Consumable (allows repeated use), personal Preparation Item of Kouji Tagawa
 FIRE AXE: Weapon (slot A), reward from Macabre Memoir of Morbid Mermaids ending A
 FLARE GUN: Consumable, unlocked via achievement
 FLASHLIGHT: Equipable (slot B)
+FLESHY TOY: Equipable (slot C), special item received during Restless Rumors of a Residential Recluse mystery
 FOREIGN CIGARETTES: Consumable, unlocked via achievement
 FOREST NOTE: Quest item from Blood Brief of Beckoning Bulletin
 FOREST TAPES: Reward from Freaky Feature of Found Footage endings A/C
@@ -93,15 +84,11 @@ FRIEND'S DIARY: Quest item from Spine-Chilling Story of School Scissors. As of 0
 FUEL: Used alongside CHAINSAW [NO FUEL] to create CHAINSAW. Unlocked via achievement.
 FUNNY MASK: Equipable (slot B), unlocked via achievement
 
-G:
-
 GLASS EYE: Consumable, unlocked via achievement
 GOBLET: Obtained via using TINY KEY during an event
 GOBLET (BLOOD): Consumable; used to obtain the 8th character (Yashiro)
 GRUESOME TOTEM: Equipable (slot C), unlocked via achievement
 GUITAR: Personal Preparation Item of Miku
-
-H:
 
 HANDCUFFS: Consumable
 HAPPI COAT: Equipable (slot C)
@@ -111,31 +98,21 @@ HUMAN SKULL: Equipable (slot B)
 #### HUMAN SUIT: Equipable (slot B), as of 0.9.17h1 its bugged and cannot be equipped
 HUNTING RIFLE: Gun (slot A), unlocked via achievement
 
-I:
-
 INSPIRING NOVEL: Consumable, starting item of Knight-Errant backstory
 
-J:
-
 JACOB'S GOLONKA: Consumable, randomly created by COOK BOOK
-
-K: 
 
 'KARUKOSA' MASK: Equipable (slot B)
 KATANA: Weapon (slot A), very OP
 KENDO HELMET: Equipable (slot B)
 KIRIE'S BAG: Personal Preparation Item of Kirie Minami
 
-L:
-
 LIBRARY BOOK: Consumable
 LIBRARY NOTES: Consumable, might allow multiple uses
 LONG PIG STEAK: Consumable
-#### LUCKY BAT: Weapon (slot A), does not show anywhere in the game, stated bonus does not work
+LUCKY BAT: Weapon (slot A), Yumiko's special starting item
 LUCKY EARRINGS: Equipable (slot C)
 LUMP OF FLESH: Consumable
-
-M:
 
 MAP: Equipable (slot C), unlocked via achievement
 MARKED BIBLE: Personal Preparation Item of Yashiro Kawaji
@@ -146,19 +123,13 @@ MONKEY WRENCH: Weapon (slot A), unlocked via achievement
 MUMMIFIED HEART: Consumable
 MYSTERY YAKITORI: Consumable, randomly created by COOK BOOK
 
-N:
-
 NECRONOMICON: Toshiaki's special starting item
 NICE RING: Consumable, equipable (slot C)
-
-O:
 
 OCCULT DIARY: Consumable
 OLD COIN: Consumable, exclusive to Curious Birthmark backstory
 OLD SHOTGUN: Gun (slot A), Moriko's special starting item
 ONYX MEDALLION: Equipable (slot C), Ayako's special starting item
-
-P:
 
 PAIN MEDICATION: Consumable, unlocked via achievement
 PAINKILLER: Consumable
@@ -170,10 +141,6 @@ PRAYER BEADS: Equipable (slot C)
 PRESCRIPTION: Special item used to unlock 7th character (Miku)
 PRESCRIPTION PILLS: Consumable
 
-Q:
-
-R:
-
 RENTED BOOKS: Quest item from Horrible History of Household Hell, automatically discarded to give the player ARCHITECT'S JOURNAL and SHIOKAWA HERALD (A)
 RESEARCH NOTES: Quest item from Freakish Fable of the Frightening Flood
 RITUAL DAGGER: Weapon (slot A)
@@ -183,8 +150,6 @@ RITUAL ROBE: Equipable (slot C)
 ROCK RING: Equipable (slot C)
 ROSARY: Equipable (slot C), Yashiro's exclusive item obtained from one of his personal events. Disappears if equipped by anyone else than Yashiro.
 RUSTY SICKLE: Weapon (slot A), dropped by SHIRO-SAN (Botanist mystery boss) when he is defeated in combat
-
-S:
 
 SALT: Consumable
 SCALPEL: Weapon (slot A)
@@ -201,9 +166,8 @@ SPORT RIFLE: Gun (slot A)
 STALKER'S MASK: Equipable (slot B)
 STEAK KNIFE: Weapon (slot A)
 STRAIGHT RAZOR: Weapon (slot A), only available during Tutorial mode (version 0.9.92), automatically added to Kouji's inventory
+STUFFED TOY: Consumable, exclusive to Restless Rumors of a Residential Recluse mystery
 SWITCHBLADE: Weapon (slot A)
-
-T:
 
 TAINTED VIOLIN: Equipable (slot C), unlocked via achievement
 TAIYAKI: Consumable
@@ -211,20 +175,8 @@ TINY KEY: Reward for completing Alarming Account of Abnormal Arms's sidequest
 TOME OF ROT: Consumable, unlocked via achievement
 TORCH: Weapon (slot A)
 
-U:
-
-V:
-
 VANITY MIRROR: Equipable (slot C), personal Preparation Item of Mizuki Hamasaki
 VIGIL PAMPHLET: Quest item from Vicious Verses of a Violent Vigil. As of 0.9.14, trying to view VIGIL PAMPHLET spawned outside Vigil mystery crashes the game.
 
-W:
-
 WINE BOTTLE: Consumable
 WOODEN BAT: Weapon (slot A)
-
-X:
-
-Y:
-
-Z:

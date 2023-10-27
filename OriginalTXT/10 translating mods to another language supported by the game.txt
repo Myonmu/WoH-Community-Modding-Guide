@@ -1,0 +1,19 @@
+GENERAL HOW TO:
+
+You have to translate any flavor that shows in game as text. DO NOT TRANSLATE any pieces of actual code, like 'winnumbera=' or 'location=' or 'artfreq='. Names of perks, items, spells and so on needs to be translated in specific way:
+
+If the string exists in English version of language files (.jn extension, covered in file 09), it need be translated to the language Player going to playi EXACTLY as the string is presented in given language file.
+
+For example, if you're translating a mod to German language, and the event reward gives the player character a 'STEAK KNIFE', you need to translate it, according to small.jn (containing items strings), to 'STEAKMESSER'.
+
+There are several quirks you need to keep in mind:
+
+CHARACTERS:
+
+Currently (1.0g), English-named Perk Packs do not show in the currently chosen language when the custom Character is loaded in game, only in English. If you add them in target-language, however, game will not realize what these are and deprive the Custom Character of its level-up perks.
+
+This is a jarring bug, but there's nothing that can be done about it currently.
+
+MYSTERIES:
+
+Any 'mystery' status strings (name, flavor, tags) you add via the [card_a] and [card_b] must be translated manually, as these are created when the mystery is loaded, the game doesn't have them 'built in' in language files.

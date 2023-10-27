@@ -101,7 +101,7 @@ end_txtd=""
 
 FUNNY ALL CAPS TITLE HERE
 
-The above is the complete list of all instructions a custom mystery .ito file can have (as of 0.9.92), and which World of Horror's executable will read for your custom event to take effect.
+The above is the complete list of all instructions a custom mystery .ito file can have (as of 1.0), and which World of Horror's executable will read for your custom event to take effect.
 
 Almost all of them must be followed by ="", and all text, effects and number values must be typed inside the "quotation marks".
 
@@ -151,9 +151,9 @@ a_value/b_value: adds X value for effect described above, precede with a - to su
 *combat_stamina: adds X stamina at the start of a Combat encounter
 *combat_reason: adds X reason at the start of a Combat encounter
 *onetime_doom: adds X doom when this Card is present; when the mystery ends, this value is removed too
-*onetime_exp: adds X doom when this Card is present; when the mystery ends, this value is removed too
-*onetime_stamina: adds X doom when this Card is present; when the mystery ends, this value is removed too
-*onetime_reason: adds X doom when this Card is present; when the mystery ends, this value is removed too
+*onetime_exp: adds X experience when this Card is present; when the mystery ends, this value is removed too
+*onetime_stamina: adds X stamina when this Card is present; when the mystery ends, this value is removed too
+*onetime_reason: adds X stamina when this Card is present; when the mystery ends, this value is removed too
 *damage_deal: boosts damage you deal during Combat encounters by X
 *damage_receive: boosts damage you receive during Combat encounters by X
 *strength: adds X to your character's Strength when this Card is present; when the mystery ends, this value is removed too
@@ -182,7 +182,7 @@ one_loc (two_loc, three_loc and so forth): the in-game Location that needs to be
 *forest: player needs to investigate FOREST
 *mansion: player needs to investigate MANSION
 *village: player needs to investigate VILLAGE
-*ending: this will cause the game to draw Ending Button that uses the text in 'location' string. If you do not include this, you can use "ending=1" in a forced Custom Event or Custom Enemy encounter. If you do not include such triggers either, the game will conclude the mystery using previous numbered step's information isntead.
+*ending: this will cause the game to draw Ending Button that uses the text in 'location' string. If you don't want to use this, you can use "ending=1" in a forced Custom Event or Custom Enemy encounter. If you do not include such triggers either, the game will conclude the mystery using previous numbered step's information instead. There's no minimum limit for investigations; it is therefore possible to make a mystery that ends right at the beginning.
 one_txt (two_txt, thr_txt etc etc): the text displayed above Locations panel, under the Doom meter. It will be shown preceding the investigation of the location defined by one_loc. Game auto-wraps overflowing text; you can also use # to create line breaks
 one_frc (two_frc, thr_frc...): event defined here will be forced to show in-game, overriding any random event or enemy encounter. The file path starts FROM THE LEVEL OF GAME ITSELF, so if you put it in your own subfolder, the path should read: 'mystery/mymystery/myforcedevent.ito'. You cannot force events from the base game, or custom events from 'custom' folder. You can use this to give the player an event that changes the mystery's ending, for example, via 'ending_trigger' reward. Check file '02 ito file instructions and explanations' for extra info.
 **How to implement a 'boss fight' with the current system: On last investigation, force an event that will trigger an enemy encounter, and set that encounter as inescapable (can_run="0") and with ending enforcement (ending="1")
@@ -199,4 +199,4 @@ end_txtd: same as above.
 end_txt: this text will be shown above mystery's summary if there's only 1 Ending (you didn't set up any trigger_ending via custom event rewards)
 end_txta: this text will be shown above mystery's summary if player reaches Ending A of custom mystery (if your mystery has exactly 1 ending, it will use "end_txt" instead!)
 end_txtb: this text will be shown above mystery's summary if player reaches Ending B of custom mystery
-end_txtb:this text will be shown above mystery's summary if player reaches Ending C of custom mystery
+end_txtb: this text will be shown above mystery's summary if player reaches Ending C of custom mystery

@@ -1,0 +1,51 @@
+NOTE: This list is an alphabetical list of all Injuries that can be found in World of Horror (version 1.0).
+
+Information includes in-game injury card name as well as short description. Minor (can be fixed with Bandage/Treatment and School Nurse) and Major Injuries (can be fixed with Medical Kit/Surgery) are listed separately.
+
+Injuries not available in normal injury roster are noted as such. Injuries unlocked by achievement are noted as such.
+
+--MINOR--
+
+BADLY BLEEDING: Small chance of -1 Stamina per Investigation.
+BITE: Small chance to turn into Infected Wound each Investigation. Normally received from 'Bitten' event of CTHAC-ATORASU, SPIDER GOD Old God.
+BLOATED: -1 Reason at end of the Mystery.
+BROKEN JAW: Cannot cast Spells.
+BROKEN NOSE: Lowers REST effect at Home during Mysteries by 1.
+BURN: +1 Damage received.
+
+CONCUSSION: -1 Knowledge until end of the Mystery.
+COUGHING BLOOD: -2 Dexterity.
+
+DISLOCATED SHOULDER: -1 Maximum Stamina, removal costs 2 Reason. Unlocked by an achievement.
+
+FRACTURED RIBS: -1 Dexterity.
+FROSTBITE: -2 Strength.
+
+HANGOVER: -1 to all Stats until end of the Mystery. Normally received after using Wine Bottle.
+
+LEECHES: Small chance of -1 Stamina per Investigation. Normally received from special attack of Leech Girl Enemy.
+
+SLIT MOUTH: -1 Strength and Charisma. Normally received from special attack of Scissors Woman Enemy.
+SWOLLEN JOINT: Cannot escape from Combat, removal costs -2 Stamina and -1 Maximum Stamina. Unlocked by an achievement.
+
+TINY CUTS: No effect.
+
+--MAJOR--
+
+ABDOMINAL CUT: -10% Maximum Stamina.
+
+BROKEN BONE: -1 Strength and Dexterity.
+
+COLLAPSED LUNG: Shortens Combat Time Bar by 20 units.
+CUT ARM SINEW: -1 Damage dealt.
+CUT ARTERY: -1 Stamina each Investigation.
+
+EXPOSED RIBS: -20% Maximum Stamina.
+
+FACIAL TRAUMA: -10% chance to all Combat actions.
+
+INFECTED WOUND: -1 to Dexterity and Perception. Normally caused by BITE Minor Injury.
+
+MANGLED HAND: -1 Stamina when attacking in Combat.
+
+TORN MUSCLE: -1 Damage dealt.

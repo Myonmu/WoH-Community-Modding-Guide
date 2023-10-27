@@ -1,0 +1,44 @@
+NOTE: This list is an alphabetical list of all Curses that can be found in World of Horror (version 1.0).
+
+Information includes in-game curse card name as well as short description.
+
+Curses normally obtained in non-standard ways are noted as such. Curses normally requiring an Achievement are noted as such.
+
+---
+
+BLOOD FRENZY: +1 Damage dealt and received, removal costs 4 Stamina. Unlocked by an achievement.
+BRAIN DAMAGE: -2 Knowledge, +10% Maximum Reason.
+BRANDED: Small chance of +1 Doom each Investigation.
+
+CURSED SIGNS: Casting Spells raises Doom.
+
+FACELESS: -2 to all Stats. Normally obtained only by replacing Crestfallen Mask in Slot C with another Slot C item.
+FEARFUL: -1 Reason at start of a Combat encounter.
+FLASHBACKS: -2 Dexterity, removal costs +4 Doom. Unlocked by an achievement.
+FUNGAL GROWTH: -2 Maximum Reason, removal costs -3 Stamina. Unlocked by an achievement.
+
+HALLUCINATIONS: -1 Perception. Unlocked by an achievement.
+HOLES: -2 Stamina at end of the Mystery.
+HUNGER: -1 Charisma.
+
+INSMASU CURSE: Randomly -1 Stamina, -1 Reason or +1 Doom when investigating Seaside. Used to obtained Macabre Memoir of Morbid Mermaids Ending D.
+INSOMNIA: -2 Reason at end of the Mystery. Unlocked by an achievement.
+
+JUST A DREAM?: -2 Doom at end of the Mystery. Special curse bestowed by KTU-RUFU, THE DREAMING Old God.
+
+MASOCHISTIC: +1 Reason at start of a Combat encounter, -2 Maximum Reason.
+MIND WIPE: -100 Experience, removal costs -4 Reason.
+
+NICOTINE RUSH: Faster (0.9x) combat actions, removes 1 Cigarette (counter) per Investigation. Normally obtained by using Cigarettes (item) or Foreign Cigarettes.
+NICOTINE WITHDRAWAL: Slower (1.2x) combat actions, removed by using Cigarettes (item) or Foreign Cigarettes. Normally obtained when Cigarette (counter) falls from 1 to 0. Haru starts with this Curse.
+
+PANIC: -10% Chance to all combat actions.
+PARANOIA: Prevents 'Lets go' action and enables 'Kill' action which removes an Ally and grants +1 Reason. Causes Reason loss when losing Stamina in Combat, stacks with itself up to 3 copies of the Curse.
+
+RINGING EARS: Slower (1.1x) combat actions, removal costs -2 Stamina and -1 Maximum Stamina. Automatically removed at end of the Mystery.
+
+STALKER: Human enemies gain +1 DMG. Stacks with itself, no limit.
+SUICIDAL: Causes Stamina loss when losing Reason in Combat, stacks with itself up to 3 copies of the Curse.
+SURVIVOR'S GUILT: +2 Doom at end of the Mystery.
+
+TRAUMATIZED: -10% Maximum Reason.

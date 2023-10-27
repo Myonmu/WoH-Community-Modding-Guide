@@ -70,7 +70,7 @@ active="1.000000"
 
 WHAT THE HECK AM I LOOKING AT?
 
-The above is the complete list of all instructions a custom event .ito file can have (as of 0.9.92), and which World of Horror's executable will read for your custom event to take effect.
+The above is the complete list of all instructions a custom event .ito file can have (as of 1.0), and which World of Horror's executable will read for your custom event to take effect.
 
 ALL of them must be followed by ="", and all text, effects and number values must be typed inside the "quotation marks".
 
@@ -104,6 +104,8 @@ location: where the event can occur. These can be locations that the player can 
 *[NOT IMPLEMENTED YET]otherworld: this event can show when the Player manages to traverse to the Otherworld.
 *[NOT IMPLEMENTED YET]herald: this event can appear if the chosen Old God is HERALD (weird tuba boy)
 *[NOT IMPLEMENTED YET]kturufu: this event can appear if the chosen Old God is KTU-RUFU (IA IA KTURUFU FHTAGN)
+*[NOT IMPLEMENTED YET]zhectast: this event can appear if the chosen Old God is ZHECTAST (meteorite goo)
+*[NOT IMPLEMENTED YET]ehzhal: this event can appear if the chosen Old God is EH-ŻHAL (misery parasite)
 *linked: links the event with a custom character that uses this event as their personal event (more on this in custom characters)
 
 [OPTIONAL] character: additional location requirement that is tied to player character; the event will NOT trigger until its exact match. Currently available values are first names of vanilla characters, lowercase; Miku is sole exception renderer as Rioter: kirie, aiko, haru, mizuki, kouji, mimi, rioter, moriko, yashiro, ayaka, toshiaki, juri
@@ -136,7 +138,7 @@ y2: vertical position (in pixels) of the bottom-right corner of the text box.
 
 about: a very short (~20 characters) descriptor that will show up when the player moves their mouse over the event's name in the MODS menu in World of Horror.
 
-[OPTIONAL] a_required/b_required/c_required: in-game card that this option requires before the player can click it. Permitted values are every interactive in-game card you can collect: items, perks, allies, spells, curses/injuries/other statuses, written in ALL CAPS.
+[OPTIONAL] a_required/b_required/c_required: in-game card that this option requires before the player can click it. Permitted values are every interactive in-game card you can collect: items, perks, allies, spells, curses/injuries/other statuses, written in ALL CAPS. There's also one broader category, 'LIGHTSOURCE' which checks for any item with Light Source tag (currently Flashlight, H.Duty Flashlight, and Torch).
 
 [OPTIONAL] a_locked/b_locked/c_locked: the message the game will show if you do not have the card specified in above field. You can write what you want, it uses same coding as 'option' text box. The usual vanilla string for locked options is "NEEDS [CARD] PERK" (or CURSE or ALLY or...)
 
@@ -163,10 +165,14 @@ winprizea (winprizeb, winprizec): the 'prize' of the successful outcome. The val
 *funds: will add X FNDs to Player's character. 
 *item: will add an ITEM to the Player character's inventory.
 *itempool: will add a random ITEM from the selected itempool to the Player character's inventory.
-*curse: will add a Curse status to Player's character. As of 0.9.14, the added Curse is randomly choosen by the game.
-*spell: will grant the Player's character a new Spell. As of 0.9.14, the added Spell is randomly choosen by the game, and not every spell in-game can be obtained this way.
-*injury: will add an Injury status to Player's character. As of 0.9.14, the added Injury is randomly choosen by the game.
-*ally: will add a new Ally to Player's character ally list. As of 0.9.14, the added Ally is randomly choosen by the game, and seems to exclude any of available Dogs (DOG, CAMP DOG, ATTACK DOG).
+*curse: will add a random Curse status to Player's character.
+*curse_ex: will add a specific Curse status to Player's character. Currently (1.0) there's a small display bug; the card graphic will be white (like spells, injuries, etc) instead of default black Curses have.
+*spell: will grant the Player's character a random Spell. 
+*spell_ex: will grant the Player's character a specific Spell.
+*injury: will add a random Injury status to Player's character.
+*injury_ex: will add a specific Injury status to Player's character.
+*ally: will add a random Ally to Player's character ally list. The list excludes any of available Dogs (DOG, CAMP DOG, ATTACK DOG) as well as Mystery/Character-specific allies (like KANA or AIKO'S FRIEND).
+*ally_ex: will add a specific Ally to Player's character ally list.
 *trigger_event: triggers another event. The path to the event must be written from the level of the .ito file itself, just like 'image'. Currently (0.9.84f) this can be used only as winrewarda= ; all others (failurea, and options 2 and 3 rewards) will fail to trigger other events.
 *trigger_enemy: triggers a combat encounter (school toilet -> toilet ghost is an example of this mechanic from base game). Same pathing logic as with 'trigger_event' and 'image'. Currently (0.9.84f) this can be used only as winrewarda= ; all others (failurea, and options 2 and 3 rewards) will fail to trigger the combat encounters.
 *ending_trigger: USED IN CUSTOM MYSTERIES. This will force the player to reach certain ending of the mystery.
@@ -177,6 +183,7 @@ winnumbera (winnumberb, winnumberc): the value of the thing given to player via 
 *item: valid value is the item's name. ITEMS MUST BE TYPED IN ALL CAPS AND WITHOUT ANY TYPOS; failure to do so will result in a 'broken' item that cannot be clicked (and therefore equipped, used, discarded, sold, etc etc). Refer to '03 item list' file for the list of available items.
 *itempool: valid value is itempool's name. Refer to '04 item pools' file to see what items belong to what itempool.
 *curse/spell/injury/ally: randomly chosen by the game, leave it blank: winnumbera=""
+*curse_ex/spell_ex/injury_ex/ally_ex: must be typed in ALL CAPS WITHOUT ANY TYPOS (just like items). Can be used to give not-yet-unlocked or even Character or Mystery-specific thingies!
 *ending_trigger: 0 for ending A, 1 for ending B, 2 for ending C.
 *card_add: CARD_AAA for the 1st custom mystery specific status card, CARD_BBB for 2nd custom mystery specific status card.
 
@@ -205,5 +212,5 @@ failnumbera (failnumberb, failnumberc): the value of the failprizea. Exact same 
 
 [OPTIONAL] extra_failnumbera (extra_failnumberb, extra_failnumberc): the value of extra_failprizea. Exact same settings as extra_winnumber instructions.
 
-active: leave it at default value of active="1.000000" so that the game reads the custom event as 'enabled'. It will let the custom event to show-up in game. Note: When you disable this event in-game, the game chances active value to 0 and puts it on top of the file, making the game read the active state first and skip the event. 
-*Currently (0.9.16) this option is always 'on'.
+[deprecated since 0.9.16] active: leave it at default value of active="1.000000" so that the game reads the custom event as 'enabled'. It will let the custom event to show-up in game. Note: When you disable this event in-game, the game chances active value to 0 and puts it on top of the file, making the game read the active state first and skip the event. 
+*Currently (0.9.16) this option is always 'on' and is not toggle-able anymore.

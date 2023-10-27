@@ -45,7 +45,7 @@ location_a=""
 
 LOOK AT ALL THOSE STRINGS!
 
-Above is the entirety of coding that is used to create a custom character in World of Horror (as of version 0.9.92).
+Above is the entirety of coding that is used to create a custom character in World of Horror (as of version 1.0).
 
 ALL of them must be followed by ="", and all text, effects and number values must be typed inside the "quotation marks".
 
@@ -107,5 +107,5 @@ hunger: the .png file containing art for when your character is afflicted with H
 *for funds, doom, bullets and cigarettes, these must be numerical values; negative values are permitted (although granting negative funds will cause the game to bump FND to 0, because that's how game handles them)
 
 (OPRIONAL) [linked_events]:
-(OPTIONAL) event_a/b/c/d/e: filepath to an event linked to this character (maximum 5). The events MUST be placed in CUSTOM folder, not CHARACTER folder, and the path itself can contain subfolders (so the game doesn't trigger them for any character), excluding root custom folder, for example: "my_char_events\char_event1.ito"
+(OPTIONAL) event_a/b/c/d/e: filepath to an event linked to this character (maximum 5). The events MUST be placed in CUSTOM folder, not CHARACTER folder, and the path itself can contain subfolders (so the game doesn't trigger them for any character), excluding root custom folder, for example: "my_char_events\char_event1.ito" (consider reminding your players about this, too)
 (OPTIONAL) location_a/b/c/d/e: which location icon will show up when this event is triggered (refer to event Locations for location strings)

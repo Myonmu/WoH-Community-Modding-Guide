@@ -24,7 +24,7 @@ artfreq=""
 
 THE ARCANE WORDS, WHAT DO THEY MEAN??
 
-Above is the entirety of coding that is used to create a custom enemy in World of Horror (as of version 0.9.92).
+Above is the entirety of coding that is used to create a custom enemy in World of Horror (as of version 1.0).
 
 ALL of them must be followed by ="", and all text, effects and number values must be typed inside the "quotation marks".
 
