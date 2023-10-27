@@ -102,7 +102,7 @@ Quest item from Eerie Episode of Evolving Eels
 #Weapon (slot A)
 
 #### CASSETTE PLAYER #SP 
-Does not show anywhere in the game, currently (0.9.16) does nothing beyond looking cool
+Does not show anywhere in the game, currently (1.01) is bugged with a graphic that cannot be closed
 
 #### CHAINSAW
 #Weapon (slot A), OP weapon, made by combining FUEL with CHAINSAW \[NO FUEL]
@@ -207,6 +207,10 @@ Unlocked via achievement
 #### FLASHLIGHT
 #Equipable (slot B)
 
+#### FLESHY TOY
+
+#Equipable (slot C), special item received during Restless Rumors of a Residential Recluse mystery
+
 #### FOREIGN CIGARETTES
 #Consumable, unlocked via achievement
 
@@ -301,7 +305,7 @@ Personal Preparation Item of Kirie Minami
 #Consumable
 
 #### LUCKY BAT #SP 
-#Weapon (slot A), does not show anywhere in the game, stated bonus does not work
+#Weapon (slot A), Yumiko's special starting item
 
 #### LUCKY EARRINGS
 #Equipable (slot C)
@@ -463,6 +467,9 @@ Quest item for Rotten Report of Rancid Ramen
 
 #### STRAIGHT RAZOR
 #Weapon (slot A), only available during Tutorial mode (version 0.9.92), automatically added to Kouji's inventory
+
+#### STUFFED TOY
+#Consumable, exclusive to Restless Rumors of a Residential Recluse mystery
 
 #### SWITCHBLADE
 #Weapon (slot A)

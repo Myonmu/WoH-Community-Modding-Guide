@@ -120,6 +120,8 @@ where the event can occur. These can be locations that the player can visit (dow
 - #NOT_IMPLEMENTED_YET **herald**: this event can appear if the chosen Old God is HERALD (weird tuba boy)
 - #NOT_IMPLEMENTED_YET **kturufu**: this event can appear if the chosen Old God is KTU-RUFU (IA IA KTURUFU FHTAGN)
 - **linked**: links the event with a custom character that uses this event as their personal event (more on this in custom characters)
+- #NOT_IMPLEMENTED_YET zhectast: this event can appear if the chosen Old God is ZHECTAST (meteorite goo)
+* #NOT_IMPLEMENTED_YET ehzhal: this event can appear if the chosen Old God is EH-ŻHAL (misery parasite)
 
 ### character #OPTIONAL 
 
@@ -184,7 +186,7 @@ a very short (~20 characters) descriptor that will show up when the player moves
 
 similarly: b_required, c_required
 
-in-game card that this option requires before the player can click it. Permitted values are every interactive in-game card you can collect: items, perks, allies, spells, curses/injuries/other statuses, written in ALL CAPS.
+in-game card that this option requires before the player can click it. Permitted values are every interactive in-game card you can collect: items, perks, allies, spells, curses/injuries/other statuses, written in ALL CAPS. There's also one broader category, 'LIGHTSOURCE' which checks for any item with Light Source tag (currently Flashlight, H.Duty Flashlight, and Torch).
 
 ### a_locked #OPTIONAL 
 
@@ -324,4 +326,4 @@ the value of extra_failprizea. Exact same settings as extra_winnumber instructio
 ### active
 
 leave it at default value of active="1.000000" so that the game reads the custom event as 'enabled'. It will let the custom event to show-up in game. Note: When you disable this event in-game, the game chances active value to 0 and puts it on top of the file, making the game read the active state first and skip the event. 
-*Currently (0.9.16) this option is always 'on'.
+*Currently (0.9.16) this option is always 'on'.  and is not toggle-able anymore.

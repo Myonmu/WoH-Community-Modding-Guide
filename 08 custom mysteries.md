@@ -267,8 +267,7 @@ the in-game Location that needs to be investigated by the Player to progress the
 - **forest**: player needs to investigate FOREST
 - **mansion**: player needs to investigate MANSION
 - **village**: player needs to investigate VILLAGE
-- **ending**: this will cause the game to draw Ending Button that uses the text in 'location' string. If you do not include this, you can use "ending=1" in a forced Custom Event or Custom Enemy encounter. If you do not include such triggers either, the game will conclude the mystery using previous numbered step's information isntead.
-
+- **ending**: this will cause the game to draw Ending Button that uses the text in 'location' string. If you don't want to use this, you can use "ending=1" in a forced Custom Event or Custom Enemy encounter. If you do not include such triggers either, the game will conclude the mystery using previous numbered step's information instead. There's no minimum limit for investigations; it is therefore possible to make a mystery that ends right at the beginning.
 ### one_txt 
 
 (two_txt, thr_txt etc etc)
@@ -324,6 +323,6 @@ this text will be shown above mystery's summary if player reaches Ending A of cu
 
 this text will be shown above mystery's summary if player reaches Ending B of custom mystery
 
-### end_txtb
+### end_txtc
 
 this text will be shown above mystery's summary if player reaches Ending C of custom mystery

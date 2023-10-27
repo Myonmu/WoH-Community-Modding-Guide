@@ -53,9 +53,9 @@ Short description of .jn files and general info on translating the game texts.
 
 It is a faux file type created by panstasz (game's dev) for the use by World of Horror game executable.
 
-To create an .ito file, simply grab an empty text file (.txt extension) and name it "mycustomevent.ito".
+To create an .ito file, simply open a new txt file in notepad, then, when done, save as -> all files -> nameofyourevent.ito
 
-Note that the .ito is in the file's NAME, it is not an actual extension. If you would set visibility of file extensions in Windows, the above would show as 'mycustomevent.ito.txt'
+For even faster way, grab someone's mod (even the example ones will do), and replace the stuff inside with your code, flavor et cetera. No need to fill everything from scratch this way!
 
 # HOW TO EDIT .ITO FILES?
 
