@@ -4,7 +4,7 @@ This set of instructional files exists to help you create your custom events. It
 
 I'm purely Windows user, so for people using Mac (or other OS, or in the future, Switch), these instructions might not be that much help.
 
-This modding guide was made for World of Horror version: 1.0g
+This modding guide was made for World of Horror version: 1.01
 
 ALMANACH FILE LISTING:
 

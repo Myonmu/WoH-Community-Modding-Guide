@@ -75,9 +75,9 @@ intro: introduction texts on black screen, shown to the player right before the 
 
 [OPTIONAL] health: anything from 1 to ??, the amount of health enemy has. If you do not include this in the file, the game will default enemy health to "10".
 
-[OPTIONAL] power: seems to be accepting any value from 0 to ??, the more power enemy has, the harder it is to hit it. If you do not include this in the file, the game will default enemy power to "10".
+[OPTIONAL] power: any value (even negatives); the more power enemy has, the harder it is to hit it. If you do not include this in the file, the game will default enemy power to "10".
 
-[OPTIONAL] damagevalue: seems to be accepting any value from 0 to ??, how much damage the enemy does each turn. If you do not include this in the file, the game will default this value to "1".
+[OPTIONAL] damagevalue: any value (even negatives); how much damage the enemy does each turn. If you do not include this in the file, the game will default this value to "1".
 
 [OPTIONAL] damagetype: possible values are "STA", "REA", "ALL" (damages both STA and REA of player character), or "DOOM" (increases DOOM meter with each attack). If you do not include this in the file, the game will default this value to "STA".
 

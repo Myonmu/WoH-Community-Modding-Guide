@@ -7,6 +7,7 @@ If you do not have either of the folders specified below, just make them.
 **CUSTOM EVENTS, CUSTOM ENEMIES:**
 
 `C:\Users\yourusernamehere\AppData\Local\wohgame\custom `
+(if this folder does not exist, create it manually). Make sure it is **NOT** `wohgame\extra_content\custom` as the game does not read files from there.
 
 Put all events and enemies in there. Various .ito files should go there, art usually gets put into subfolders by the modders.
 
@@ -35,3 +36,19 @@ The game will the load 8 random mysteries and apply them to Mystery Board/Custom
 `C:\Program Files (x86)\Steam\steamapps\common\WOH\language` (or elsewhere, depends where you installed Steam itself)
 
 Put the .jn files in there, and agree to overwrite. **Consider putting the original English translation somewhere else as backup in case something goes wrong.**
+
+***INSTALLATION GUIDES FOR OTHER SYSTEMS***
+
+Note that these are contributed by other users and I am unable to verify their accuracy (I don't have a Mac/Steam Deck)
+
+Mac:
+
+For anyone also trying to get mods to work under the Mac steam version, I figured it out! The necessary path for the custom/character/mystery folders is not /Users/[username]/Library/Application Support/Steam/steamapps/common/WOH, but instead /Users/[username]/Library/Application Support/com.panstasz.wohgame. 
+In other words, whether it's the steam version or not is irrelevant, what counts is the App ID (which is com.panstasz.wohgame).
+(posted by BDraw)
+
+Steam Deck:
+
+On the Steam Deck, the path where the "custom" and "character" directories should go is: /home/deck/.local/share/Steam/steamapps/compatdata/913740/pfx/drive_c/users/steamuser/AppData/Local/wohgame
+If you can't find it for some reason, I found it by running find /home/deck -iname save.ito on Konsole. Since it's the same directory where the save.ito file is.
+(posted by Johnman)

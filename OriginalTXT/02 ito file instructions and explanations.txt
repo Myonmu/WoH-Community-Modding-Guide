@@ -111,7 +111,7 @@ location: where the event can occur. These can be locations that the player can 
 [OPTIONAL] character: additional location requirement that is tied to player character; the event will NOT trigger until its exact match. Currently available values are first names of vanilla characters, lowercase; Miku is sole exception renderer as Rioter: kirie, aiko, haru, mizuki, kouji, mimi, rioter, moriko, yashiro, ayaka, toshiaki, juri
 *For more in-depth info on the characters themselves, along with their personal events in vanilla World of Horror (if you want to tie yours to established canon) can be found at World of Horror Wiki: https://woh.fandom.com/wiki/Category:Playable_Characters
 
-author: shows the autor's name in-game, preceded with 'by: ' string. If you're using someone else's art, it is a good place to write their name too, for example "Haspen, art by Chiavica"
+author: shows the autor's name in-game, preceded with 'by: ' string. If you're using someone else's art, it is a good place to write their name too, for example "Haspen, art by Carp"
 
 contact: your World of Horror's discord handle, in case panstasz (game's dev) would like to include your event into the game.
 
@@ -175,7 +175,6 @@ winprizea (winprizeb, winprizec): the 'prize' of the successful outcome. The val
 *ally_ex: will add a specific Ally to Player's character ally list.
 *trigger_event: triggers another event. The path to the event must be written from the level of the .ito file itself, just like 'image'. Currently (0.9.84f) this can be used only as winrewarda= ; all others (failurea, and options 2 and 3 rewards) will fail to trigger other events.
 *trigger_enemy: triggers a combat encounter (school toilet -> toilet ghost is an example of this mechanic from base game). Same pathing logic as with 'trigger_event' and 'image'. Currently (0.9.84f) this can be used only as winrewarda= ; all others (failurea, and options 2 and 3 rewards) will fail to trigger the combat encounters.
-*ending_trigger: USED IN CUSTOM MYSTERIES. This will force the player to reach certain ending of the mystery.
 *card_add: USED IN CUSTOM MYSTERIES. This will add a temporary, custom status/curse/injury/ally card. Refer to '08 custom mysteries' file to see how to specify a custom card.
 
 winnumbera (winnumberb, winnumberc): the value of the thing given to player via 'winprizea' instruction.
@@ -184,7 +183,6 @@ winnumbera (winnumberb, winnumberc): the value of the thing given to player via 
 *itempool: valid value is itempool's name. Refer to '04 item pools' file to see what items belong to what itempool.
 *curse/spell/injury/ally: randomly chosen by the game, leave it blank: winnumbera=""
 *curse_ex/spell_ex/injury_ex/ally_ex: must be typed in ALL CAPS WITHOUT ANY TYPOS (just like items). Can be used to give not-yet-unlocked or even Character or Mystery-specific thingies!
-*ending_trigger: 0 for ending A, 1 for ending B, 2 for ending C.
 *card_add: CARD_AAA for the 1st custom mystery specific status card, CARD_BBB for 2nd custom mystery specific status card.
 
 [OPTIONAL] wineffecta (wineffectb, wineffectc): graphical effect that will be drawn by the game when the Player succeeds with testa.
@@ -196,9 +194,11 @@ winnumbera (winnumberb, winnumberc): the value of the thing given to player via 
 [OPTIONAL] load_sound: specifies the .wav file that will be played by 'sound' effect above. The path to the sound must be written from the level of the .ito file itself, just like 'image'. 
 
 [OPTIONAL] extra_winprizea (extra_winprizea, extra_winprizeb): second 'prize' for the succesful outcome of this choice.
-*GREATLY limited; at the moment, the only values can be stamina, reason, doom or experience.
+*GREATLY limited; at the moment, the only values can be stamina, reason, doom or experience. HOWEVER there's one reward available only for extra_winprizes:
+*ending_trigger: USED IN CUSTOM MYSTERIES. This will force the player to reach certain ending of the mystery.
 
 [OPTIONAL] extra_winnumbera (extra_winnumberb, extra_winnumberc): the value of the thingy given to player via 'extra_winprize' instructions.
+*ending_trigger: 0 for ending A, 1 for ending B, 2 for ending C.
 
 failurea (failureb, failurec): the in-game text describing the failed outcome of this choice. The text suffers the same limitations as 'flavor' text.
 
